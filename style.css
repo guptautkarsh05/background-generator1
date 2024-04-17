@@ -1,0 +1,32 @@
+.container {
+	/*Flexbox code	*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom : 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin: 0px;
+	margin-top: 10px ;
+
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	/*Any action taken on the image, and all the properties to have transition for 1 second	*/
+	transition: all 1s;
+}
+
+/* Here the transition is when we hover on the images, it transform by a scale of 1.1 */
+img:hover {
+	transform: scale(1.1);
+}
